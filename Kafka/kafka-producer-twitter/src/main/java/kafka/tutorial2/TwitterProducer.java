@@ -25,11 +25,11 @@ public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
-    // use your own credentials - don't share them with anyone
-    String consumerKey = "fMbqEc64RbD6NITAv62klFfyo";
-    String consumerSecret = "dQqJ506GmPqKzV9BTGlrtKgpk1BSeJ7xb5qeP8RoaWVIoXhJSy";
-    String token = "1221211910512807936-ozrdKnAbIA7nUQwYHZbUjqaGDxCbbE";
-    String secret = "4zooLOl3JVXD3SUDSUCaK0MBfonA0BFMLI9LmPaErBnIZ";
+    // use your own credentials
+    String consumerKey = "";
+    String consumerSecret = "";
+    String token = "";
+    String secret = "";
 
     List<String> terms = Lists.newArrayList("Tesla");
 
